@@ -8,5 +8,5 @@ The `slides_by_chapter` directory holds 27 pdf files for slides split by topic c
 This repo was created using the Python Pillow image library and Jupyter Notebook. 
 We started off from [repo](https://github.com/Mainak99/AWS-Slides) by user **Mainak99**.\
 The repo contains images of each slide as PNGs. 
-Using the code in the .pynb file in this repo we iterate through each image file and add it to a nested array sorted by chapter.
+Using the code in the .ipynb file in this repo we iterate through each image file and add it to a nested array sorted by chapter.
 We use Image.save method to convert the image to pdf and use the `append_images` to group slides together in one pdf.
